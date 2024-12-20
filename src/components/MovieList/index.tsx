@@ -29,7 +29,7 @@ export default function MovieList () {
 
     
     return (
-        <ul className="{movie-list}">
+        <ul className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 list-none w-full">
             {movies.map((movie) => 
            <MovieCard 
                 key={movie.id}
